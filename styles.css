@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(246, 246, 158);
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+nav {
+    width: 100%;
+    color:white;
+    padding: 2vh;
+    background-color: green;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div {
+    align-items: center;
+    display: flex;
+}
+h1 {
+    margin:5vh 0vh 5vh 0vh
+}
+nav div ul {
+    margin: 0px 2vh 0px 0px;
+    list-style: none;
+    display: flex;
+    column-gap:2vh;
+}
+p {
+    margin: 0px;
+}
+a {
+    color:white;
+}
+.mojCarousel {
+    width: 50vw;
+}
+.zakaziWrapper {
+    margin-top: 5vh;
+    border-radius: 2vh;
+    align-items: center;
+    column-gap: 7vh;
+    justify-content: center;
+    background-color: green;
+    display: flex;
+    height: 10vh;
+    width: 50vw;
+}
+button {
+    font-weight: bold;
+}
+.cardWrapper {
+    margin-top: 5vh;
+    display: flex;
+    column-gap: 5vh;
+}
+.mojaTabela {
+    width: 50vw;
+}
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+input {
+    padding: 0.5vh;
+    border:none;
+    border-radius: 0.5vh;
+}
+select {  
+    padding: 0.5vh;
+    border:none;
+    border-radius: 0.5vh;
+}
+.formWrapper label {
+    margin-left: -1vh;
+}
+.a {
+    margin-top: 2vh;
+}
+.b {
+    margin-bottom: 2vh;
+}
+.kraj {
+    margin-bottom: 4vh;
+}

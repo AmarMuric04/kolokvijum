@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h3>Zlatni vrh</h3>
+      <div>
+        <ul>
+          <li>
+            <p>
+              <a
+                href="#"
+                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                >O nama</a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="#zakazi"
+                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                >Lokacija</a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="#kontakt"
+                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                >Kontakt</a
+              >
+            </p>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-warning">Zakazi</button>
+      </div>
+    </nav>
+
+    <h1>Dobrodosli u odmaraliste Zlatni vrh</h1>
+    <div id="carouselExample" class="carousel slide mojCarousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slika.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="slka2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="slika3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="zakazi" class="zakaziWrapper">
+      <button type="button" class="btn btn-warning">Zakazi za sebe</button
+      ><button type="button" class="btn btn-warning">Zakazi za dve osobe</button
+      ><button type="button" class="btn btn-warning">zakazi za porodicu</button>
+    </div>
+    <div class="cardWrapper">
+      <div class="card" style="width: 18rem">
+        <img src="kartica2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Najbolja ponuda</h5>
+          <p class="card-text">
+            Iskoristite priliku za najbolju ponudu u nasem odmaralistu
+          </p>
+          <button type="button" class="btn btn-warning">Saznaj vise</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="kartica1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Najjeftinija opcija</h5>
+          <p class="card-text">
+            Iskoristite priliku za najjeftiniju ponudu u nasem odmaralistu
+          </p>
+          <button type="button" class="btn btn-warning">Saznaj vise</button>
+        </div>
+      </div>
+    </div>
+    <h1>Cene</h1>
+    <table class="table mojaTabela text-success-emphasis table-success">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Lokacija</th>
+          <th scope="col">Kapacitet</th>
+          <th scope="col">Cena</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Zlatibor</td>
+          <td>6</td>
+          <td>30000 RSD</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Kopaonik</td>
+          <td>4</td>
+          <td>32000 RSD</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Srebrno jezero</td>
+          <td>8</td>
+          <td>28000 RSD</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>Ostavite nam svoje informacije</h1>
+    <div id="kontakt" class="formWrapper">
+      <label for="">Ime</label>
+      <input class="b" type="text" placeholder="Ime" name="" id="" />
+      <label for="">Prezime</label>
+      <input class="b" type="text" placeholder="Prezime" name="" id="" />
+      <label for="">Broj osoba</label>
+      <input class="b" type="number" placeholder="0" id="" />
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="flexCheckDefault"
+        />
+        <label class="form-check-label" for="flexCheckDefault">
+          sa decom
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="flexCheckDefault"
+          checked
+        />
+        <label class="form-check-label" for="flexCheckDefault">
+          sa ljubimcima
+        </label>
+      </div>
+      <label class="a" for="">Tip smestaja</label>
+      <select name="" id="">
+        <option value="">Apartman</option>
+      </select>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Komentar</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="button" class="btn btn-warning kraj">Zakazi</button>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
