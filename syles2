@@ -22,3 +22,28 @@ display: flex;
 columb-gap: 2vh;
 }
 
+button {
+padding: 2vh 2vw;
+backgrounr-color: cyan;
+border: none;
+border-radius: 2vh;
+}
+
+.title {
+font-size: 1.7vh;
+}
+
+.cardWrapper {
+display: flex;
+column-gap: 2vh: 
+flex-wrap: wrap;
+}
+
+.card {
+background-color white;
+height 7vh;
+}
+
+.card img {
+height: 35%;
+}
