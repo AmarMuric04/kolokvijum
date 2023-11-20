@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin: 0px;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -11,14 +12,21 @@ body {
 }
 
 nav {
+  align-items: center;
   width: 100%;
   height: 7vh;
   background-color: black;
   display: flex;
   justify-content: space-between;
 }
-
+.information {
+  display: flex;
+  color: white;
+}
 nav ul {
+  margin-right: 5vh;
+  align-items: center;
+  list-style: none;
   display: flex;
   column-gap: 2vh;
 }
