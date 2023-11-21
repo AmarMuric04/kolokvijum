@@ -32,7 +32,7 @@ nav ul {
 }
 
 button {
-  padding: 2vh 2vw;
+  padding: 1vh 2vw;
   background-color: cyan;
   border: none;
   border-radius: 2vh;
@@ -44,15 +44,33 @@ button {
 
 .cardWrapper {
   display: flex;
+  width: 50%;
   column-gap: 2vh;
   flex-wrap: wrap;
+  justify-content: center;
+  height: 30vh;
 }
 
 .card {
   background-color: white;
   height: 7vh;
+  border: 0.1vh solid gray;
+  height: 5vh;
 }
 
 .card img {
   height: 35%;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
